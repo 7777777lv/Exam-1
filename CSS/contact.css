@@ -1,0 +1,87 @@
+#contact {
+  background-color: #f3f3f3;
+}
+.contact-content {
+  text-align: center;
+}
+.contact-content h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: var(--main-color);
+  text-transform: uppercase;
+  padding-top: 80px;
+}
+.contact-content p {
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: var(--content-color);
+}
+.contact-cards {
+    display: flex;
+    gap: 29px;
+    padding-top: 80px;
+    padding-bottom:  208px; ;
+}
+.ccard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 40px;
+  gap: 15px;
+  width: 328px;
+  height: 333px;
+  background: #ffffff;
+}
+.ccard p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--main-color);
+}
+.ccard h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: var(--main-color);
+}
+.ccard button {
+  color: var(--btn-color);
+  width: 160px;
+  height: 44px;
+  border: 1px solid var(--btn-color);
+  border-radius: 5px;
+    background-color: #ffffff;
+}
+.ccard button:hover {
+  cursor: pointer;
+}
+.ccard:hover {
+    background-color: var(--main-color);
+}
+.ccard:hover h2 {
+    color: white;
+}
+.ccard:hover p {
+    color: white;
+}
+.ccard:hover button {
+    border-color: white;
+    background-color: var(--main-color);
+    color: white;
+}
+.ccard:hover svg path {
+    fill: white;
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+button:hover {
+    cursor: pointer;
+}
+:root {
+  --main-color: #252b42;
+  --content-color: #737373;
+  --btn-color: #ffa62b;
+}
+:root {
+  font-size: 14px;
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

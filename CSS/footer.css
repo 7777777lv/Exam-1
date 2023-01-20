@@ -1,0 +1,51 @@
+footer {
+  background: #16697a;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 87px;
+}
+footer p {
+  padding-top: 52px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+footer li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.footer li {
+  padding: 10px 0px;
+}
+.get img {
+  width: 20px;
+  margin-right: 10px;
+}
+.end {
+    height: 70px;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.end-text p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--content-color);
+}
+.app-logos img {
+    padding: 0px 10px;
+}
